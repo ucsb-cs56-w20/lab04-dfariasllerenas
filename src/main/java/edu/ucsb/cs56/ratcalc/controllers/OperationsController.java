@@ -136,7 +136,7 @@ public class OperationsController {
         RatCalcForm ratCalcForm = new RatCalcForm();
         ratCalcForm.setOp("/");
         model.addAttribute("ratCalcForm", ratCalcForm);
-        return "operations/multiply";
+        return "operations/divide";
     }
 
 }
