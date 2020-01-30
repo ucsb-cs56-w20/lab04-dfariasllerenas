@@ -128,7 +128,7 @@ public class OperationsController {
         }
 
         model.addAttribute("ratCalcForm", ratCalcForm);
-        return "operations/add";
+        return "operations/multiply";
     }
 
 }
